@@ -8,7 +8,7 @@ $subject = "Mail From Quest Qduc";
 $txt ="Name = ". $name . "\r\n Email = " . $email."\r\n message=" . $message.
 
 $header = "From: noreply@https://questeduc-theta.vercel.app" . "\r\n" .
-"CC: somebodyelse@exampple.com";
+"CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
